@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flex renders 1`] = `
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+<div
+  className="emotion-3"
+>
+  <div
+    className="emotion-0"
+  >
+    Item 1
+  </div>
+  <div
+    className="emotion-0"
+  >
+    Item 2
+  </div>
+  <div
+    className="emotion-0"
+  >
+    Item 3
+  </div>
+</div>
+`;
+
+exports[`Flex renders as a list 1`] = `
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+  list-style-type: none;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ul
+  className="emotion-3"
+>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#1"
+    >
+      Item 1
+    </a>
+  </li>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#2"
+    >
+      Item 2
+    </a>
+  </li>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#3"
+    >
+      Item 3
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`Flex renders as a list 2`] = `
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: relative;
+  list-style-type: none;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.emotion-0:before {
+  position: absolute;
+  content: "\\200B";
+}
+
+<ol
+  className="emotion-3"
+>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#1"
+    >
+      Item 1
+    </a>
+  </li>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#2"
+    >
+      Item 2
+    </a>
+  </li>
+  <li
+    className="emotion-0"
+  >
+    <a
+      href="#3"
+    >
+      Item 3
+    </a>
+  </li>
+</ol>
+`;
